@@ -1,0 +1,49 @@
+#FAQ-header{
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 50px
+}
+
+
+
+details {
+color: white;
+background-color: black;
+margin: 20px;
+border: solid  white 1px;
+}
+
+summary {
+  background-color: white;
+  color: black;
+  height: 50px;
+  font-size: 40px;
+  display: flex; 
+  justify-content: space-between;
+  border: solid black 1px;
+}
+
+.faq-container > details > summary > strong{
+  margin-left: 10px
+}
+
+summary::marker{
+  display: none;;
+}
+
+.collapse-text{
+  margin-left: 10px;
+  justify-self: center;
+  align-self: center;
+  margin-right: 10px
+}
+
+.arrow {
+  transition: transform 0.2s ease;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+details[open] .arrow {
+  transform: rotate(90deg);
+}

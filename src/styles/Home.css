@@ -1,0 +1,55 @@
+.HomeGridWrapper{
+    display: grid;
+    grid-template-areas:
+        "Header"
+        "ButtonWrapper"
+    ;
+    height: 70vh;
+    width: 100%;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+h1{
+    font-size: 40px;
+}
+
+h1 > span{
+    color: yellow;
+}
+
+.Header {
+    grid-area: "Header";
+    height: 30%;
+    text-align: center;
+}
+
+.ButtonWrapper{
+    grid-area: "ButtonWrapper";
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.LinkButton{
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    border: none;
+    width: 25%;
+    height: 100%;
+    max-height: 200px;
+}
+
+.LinkButton:hover{
+    cursor: pointer;
+}
+
+.Icon{
+    font-size: 100px;
+}
+

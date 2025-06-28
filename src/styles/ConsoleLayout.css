@@ -1,0 +1,41 @@
+.console-layout {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 900px;
+    background-color: black;
+    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    z-index: 1000;
+    border: solid 3px #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-width: none;
+}
+
+.console-header {
+    padding: 10px;
+    background-color: #1e1e1e;
+    border-bottom: 1px solid #333;
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1010;
+}
+
+#HomeButton{
+    color: white;
+    background-color: #1e1e1e;
+    font-size: 30px;
+    border: none;
+    margin-right: 10px;
+}
+
+#HomeButton:hover{
+    cursor: pointer;
+}
+
