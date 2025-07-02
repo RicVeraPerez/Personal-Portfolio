@@ -11,40 +11,44 @@ const Contacts = () => {
                 <div className="contacts-header">
                     <h1>Contact Me</h1>
                     <p>I do not have commission opens yet!</p>
-                    <p>But if you want to get in touch, feel free to reach out via:</p>
+                    <p>But if you want to get in touch!</p>
+                    <p>feel free to reach out via:</p>
                 </div>
                 <div className="contact-links">
-                    <a
+                    <a className="contact-item"
                         href="https://www.linkedin.com/in/ricardo-vera-perez-234376344/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         <button className="LinkButton">
                             <FaLinkedin className="Icon" />
+                            <br />
                             Linkedin
                         </button>
                     </a>
-                    <a
+                    <a className="contact-item"
                         href="https://www.instagram.com/faceless._eyes_/"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         <button className="LinkButton">
                             <FaInstagram className="Icon" />
+                            <br />
                             Instagram
                         </button>
                     </a>
-                    <a
+                    <a className="contact-item"
                         href="https://github.com/RicVeraPerez"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         <button className="LinkButton">
                             <FaGithub className="Icon" />
+                            <br />
                             Github
                         </button>
                     </a>
-                    <a
+                    <a  className="contact-item"
                         href="mailto:ricveraperez@gmail.com"
                         target="_blank"
                         rel="noopener noreferrer"

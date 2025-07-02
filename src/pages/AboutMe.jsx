@@ -41,8 +41,8 @@ const AboutMe = () => {
                         <li>Music - I love learning to play new instruments!</li>
                         <li>Game Dev - Really interested in the game dev industry.</li>
                         <li>Reading - A good book can change your whole life.</li>
-                        <li></li>
-                        <li>Gaming and Technology</li>
+                        <li>Movies - If didnt become a dev, i would be a movie director </li>
+                        <li>Gym & Exercise - Been working out for 2 years by now!</li>
                     </ul>
                 </div>
                 <div className="about-me-languages">
@@ -59,3 +59,4 @@ const AboutMe = () => {
 }
 
 export default AboutMe;
+
