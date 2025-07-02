@@ -22,7 +22,6 @@ const Contacts = () => {
                     >
                         <button className="LinkButton">
                             <FaLinkedin className="Icon" />
-                            <br />
                             Linkedin
                         </button>
                     </a>
@@ -33,7 +32,6 @@ const Contacts = () => {
                     >
                         <button className="LinkButton">
                             <FaInstagram className="Icon" />
-                            <br />
                             Instagram
                         </button>
                     </a>
@@ -44,7 +42,6 @@ const Contacts = () => {
                     >
                         <button className="LinkButton">
                             <FaGithub className="Icon" />
-                            <br />
                             Github
                         </button>
                     </a>
@@ -55,7 +52,6 @@ const Contacts = () => {
                     >
                         <button className="LinkButton">
                             <MdEmail className="Icon" />
-                            <br />
                             Email
                         </button>
                     </a>
