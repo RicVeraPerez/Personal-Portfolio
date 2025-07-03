@@ -91,7 +91,7 @@
 @media (max-width: 1024px) {
   .console-layout {
     width: 95vw;
-    height: 90vh;
+    height: 80vh;
     font-size: 14px;
     border-width: 2px;
   }
