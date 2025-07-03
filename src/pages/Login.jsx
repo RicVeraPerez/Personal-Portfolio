@@ -10,14 +10,36 @@ const Login = () => {
     const { setUsername } = useUser();
     const navigate = useNavigate();
 
-    const handleLogin = () => {
-        if (input.trim() !== "") {
-            setUsername(input);
-            navigate("/home");
-        } else {
-            alert("Please enter a valid username.");
+const handleLogin = () => {
+    const trimmedInput = input.trim();
+    
+    if (trimmedInput !== "") {
+        setUsername(trimmedInput);
+
+        if (trimmedInput.toLowerCase() === "fran" || trimmedInput.toLowerCase() === "franchesca") {
+            navigate("/fran-page");
+        } else if (trimmedInput.toLowerCase() === "nataly") {
+            navigate("/nataly-page");
         }
-    };
+        else if (trimmedInput.toLowerCase() === "azael") {
+            navigate("/azael-page");
+        }
+        else if (trimmedInput.toLowerCase() === "adrian") {
+            navigate("/adrian-page");
+        }
+        else if (trimmedInput.toLowerCase() === "gabriel") {
+            navigate("/gabriel-page");
+        }
+        else if (trimmedInput.toLowerCase() === "vayholett") {
+            navigate("/vayholett-page");
+        } else {
+            navigate("/home");
+        }
+    } else {
+        alert("Please enter a valid username.");
+    }
+};
+
 
     return (
         <ConsoleLayout title={"Login"}>
